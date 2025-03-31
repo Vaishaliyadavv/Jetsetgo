@@ -1,0 +1,36 @@
+# Ignore node_modules (for JavaScript/Node.js projects)
+node_modules/
+
+# Ignore compiled files and binaries
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore dependency directories (Python, Java, etc.)
+venv/
+target/
+dist/
+__pycache__/
+
+# Ignore environment variables and config files
+.env
+*.bak
+*.swp
+
+
+node_modules/
+dist/
+build/
+.env
+npm-debug.log
+yarn-error.log
