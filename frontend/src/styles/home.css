@@ -11,7 +11,7 @@
     color: var(--heading-color);
 }
 
-.hero__content h1 .highlight {
+.hero__content h1 span.highlight {   /* might be an issue later*/
     color: var(--secondary-color);
 }
 
@@ -19,4 +19,20 @@
     font-size: 1.1rem;
     color: var(--text-color);
     line-height: 2rem;
+}
+
+.hero__img-box img, .hero__img-box video {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    object-fit: cover;
+}
+
+.hero__content {
+    padding-top: 3.5rem;
+}
+
+.hero__img-box {
+    padding-top: 2rem;
 }
