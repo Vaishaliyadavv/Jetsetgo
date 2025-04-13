@@ -145,6 +145,19 @@ const Home = () => {
       </section>
     {/* =======================================gallery section ends==================================== */}
 
+    {/* ====================================testimonial section starts================================= */}
+    <section>
+      <Container>
+        <Row>
+          <Col lg='12'>
+            <Subtitle subtitle={'Fans Love'} />
+            <h2 className="testimonial__title">What our fans say about us</h2>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+
+    {/* ====================================testimonial section ends================================= */}
   </>
 }
 
