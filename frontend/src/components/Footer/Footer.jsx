@@ -35,6 +35,7 @@ const quickLinks2 = [
 ];
 
 const Footer = () => {
+
   return (
     <footer className="footer">
       <Container>
@@ -74,6 +75,69 @@ const Footer = () => {
             </span>
             </div>
           </div>
+          </Col>
+
+          <Col lg="3">
+            <h5 className="footer_link-title">Discover</h5>
+            <ListGroup className="footer_quick-links">
+              {quickLinks2.map((item, index) => (
+                <ListGroupItem key={index} className="ps-0 border-0">
+                  <Link to={item.path}>{item.display}</Link>
+                </ListGroupItem>
+              ))}
+            </ListGroup>
+          </Col>
+
+
+          <Col lg="3">
+            <h5 className="footer_link-title">Quick Links</h5>
+            <ListGroup className="footer_quick-links">
+              {quickLinks.map((item, index) => (
+                <ListGroupItem key={index} className="ps-0 border-0">
+                  <Link to={item.path}>{item.display}</Link>
+                </ListGroupItem>
+              ))}
+            </ListGroup>
+          </Col>
+
+
+
+          <Col lg="3">
+          <h5 className="footer_link-title">Contact</h5>
+
+          <ListGroup className="footer_quick-links">
+              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+                <h6 className="mb-0 d-flex align-items-center gap-2">
+                  <span>
+                    <i className="ri-map-pin-line"></i>
+                  </span>
+                  Address:
+                </h6>
+                <p className="mb-0">UP, India</p>
+              </ListGroupItem>
+
+
+              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+                <h6 className="mb-0 d-flex align-items-center gap-2">
+                  <span>
+                    <i className="ri-mail-line"></i>
+                  </span>
+                  Email:
+                </h6>
+                <p className="mb-0">vaishali.yadavv09@gmail.com</p>
+              </ListGroupItem>
+
+
+              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+                <h6 className="mb-0 d-flex align-items-center gap-2">
+                  <span>
+                    <i className="ri-phone-fill"></i>
+                  </span>
+                  Contact:
+                </h6>
+                <p className="mb-0">+9174697648 </p>
+              </ListGroupItem>
+            </ListGroup>
           </Col>
           
         </Row>
