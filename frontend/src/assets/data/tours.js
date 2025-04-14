@@ -5,13 +5,14 @@ import tourImg04 from "../images/tour-img04.jpg";
 import tourImg05 from "../images/tour-img05.jpg";
 import tourImg06 from "../images/tour-img06.jpg";
 import tourImg07 from "../images/tour-img07.jpg";
-
+import avatar from "../images/avatar.jpg";
 const tours = [
   {
     id: "01",
     title: "Westminister Bridge",
     city: "London",
     distance: 300,
+    address: "Somewhere",
     price: 99,
     maxGroupSize: 10,
     desc: "this is the description",
@@ -19,10 +20,12 @@ const tours = [
       {
         name: "jhon doe",
         rating: 4.6,
+        avatar: avatar,
       },
       {
         name: "ron doe",
         rating: 5,
+        avatar: avatar,
       },
     ],
     avgRating: 4.5,
@@ -34,6 +37,7 @@ const tours = [
     title: "Bali, Indonesia",
     city: "Indonesia",
     distance: 400,
+    address: "Somewhere",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -52,6 +56,7 @@ const tours = [
     title: "Snowy Mountains, Thailand",
     city: "Thailand",
     distance: 500,
+    address: "Somewhere",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -70,6 +75,7 @@ const tours = [
     title: "Beautiful Sunrise, Thailand",
     city: "Thailand",
     distance: 500,
+    address: "Somewhere",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -88,6 +94,7 @@ const tours = [
     title: "Nusa Pendia Bali, Indonesia",
     city: "Indonesia",
     distance: 500,
+    address: "Somewhere",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -106,6 +113,7 @@ const tours = [
     title: "Cherry Blossoms Spring",
     city: "Japan",
     distance: 500,
+    address: "Somewhere",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -124,6 +132,7 @@ const tours = [
     title: "Holmen Lofoten",
     city: "France",
     distance: 500,
+    address: "Somewhere",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -142,6 +151,7 @@ const tours = [
     title: "Snowy Mountains, Thailand",
     city: "Thailand",
     distance: 500,
+    address: "Somewhere",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
