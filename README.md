@@ -100,8 +100,7 @@ Travel_Booking_Website/
 
 🔗 **[Open Travel Booking Project on Google Drive](https://drive.google.com/file/d/1fQpksfmptWyJeomUn3aS8tuVduRqfg8v/view?usp=drive_link)**
 
-```
-```
+
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repo
@@ -109,3 +108,6 @@ Travel_Booking_Website/
 ```bash
 git clone https://github.com/yourusername/travel-booking.git
 cd travel-booking
+run both the files frontend and backend
+
+```
