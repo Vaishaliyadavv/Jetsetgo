@@ -117,3 +117,16 @@ run both the files frontend and backend
 
 ▶️ **[Click here to watch the demo vid](https://drive.google.com/file/d/16nC65d9rGBdgbTYmj3JjMjY7cUkrpsu_/view?usp=drive_link)**
 
+
+## Colaborater
+- **Sakshi Tangar
+- **Sanchi Tripathi
+- **Vaishali Yadav
+- **Rishita
+- **Sanya Singhal
+
+## 📜 License
+This project is crated officially by Colaborators.
+
+  
+
