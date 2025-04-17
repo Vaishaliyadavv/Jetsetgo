@@ -94,12 +94,6 @@ Travel_Booking_Website/
 └── .gitignore                          # Git ignore rules
 
 ```
-#
-
-## 📄 Project Report File
-
-🔗 **[Open Travel Booking Project on Google Drive](https://drive.google.com/file/d/1fQpksfmptWyJeomUn3aS8tuVduRqfg8v/view?usp=drive_link)**
-
 
 ## ⚙️ Setup Instructions
 
@@ -111,6 +105,13 @@ cd travel-booking
 run both the files frontend and backend
 
 ```
+
+
+
+## 📄 Project Report File
+
+🔗 **[Open Travel Booking Project on Google Drive](https://drive.google.com/file/d/1fQpksfmptWyJeomUn3aS8tuVduRqfg8v/view?usp=drive_link)**
+
 
 ## 🎥 Project Presentation
 
