@@ -103,7 +103,7 @@ Travel_Booking_Website/
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone the Repo
+### Clone the Repo
 
 ```bash
 git clone https://github.com/yourusername/travel-booking.git
