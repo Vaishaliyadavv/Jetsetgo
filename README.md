@@ -94,7 +94,17 @@ Travel_Booking_Website/
 └── .gitignore                          # Git ignore rules
 
 ```
+#
 
 ## 📄 Project Report File
 
 🔗 **[Open Travel Booking Project on Google Drive](https://drive.google.com/file/d/1fQpksfmptWyJeomUn3aS8tuVduRqfg8v/view?usp=drive_link)**
+
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/yourusername/travel-booking.git
+cd travel-booking
