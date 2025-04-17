@@ -34,31 +34,19 @@ Travel_Booking_Website/
 ├── backend/                            # Backend using Node.js, Express, and MongoDB
 │
 │   ├── controllers/                    # Logic for handling requests
-│   │   └── bookingController.js
-│   │   └── userController.js
+│   │   └── toolController.js
 │
 │   ├── models/                         # Mongoose schemas for data models
 │   │   └── User.js
-│   │   └── Booking.js
-│   │   └── Destination.js
+│   │   └── Review.js
+│   │   └── Tour.js
 │
 │   ├── routes/                         # API routes
-│   │   └── userRoutes.js
-│   │   └── bookingRoutes.js
-│
-│   ├── config/                         # DB connection and config files
-│   │   └── db.js
-│
-│   ├── middleware/                     # Custom middleware like auth, error handling
-│   │   └── authMiddleware.js
-│
-│   ├── utils/                          # Utility functions
-│   │   └── validators.js
-│
-│   ├── app.js                          # Main Express app
-│   ├── server.js                       # Entry point to start the server
+│   │   └── tour.js
+
+│   ├── index.js                          # Main Express app
 │   ├── package.json                    # Backend dependencies and scripts
-│   └── .env                            # Environment variables
+│   └── package-lock-json                        
 │
 ├── frontend/                           # Frontend using React
 │
@@ -67,19 +55,32 @@ Travel_Booking_Website/
 │
 │   ├── src/                            # React app source files
 │   │
-│   │   ├── components/                 # Reusable UI components
-│   │   │   └── Navbar.js
-│   │   │   └── Footer.js
+│   │   ├── public/                 # Reusable UI components
+│   │   │   └── tour_images
+│   │   │   └── index.html
 │   │   │   └── DestinationCard.js
+|   |   
+│   │   ├── utils/                 # Reusable UI components
+│   │   │   └── avgRating.js
 │   │
 │   │   ├── pages/                      # Pages/routes of the app
-│   │   │   └── Home.js
-│   │   │   └── Login.js
-│   │   │   └── Register.js
-│   │   │   └── Bookings.js
-│   │   │   └── AdminPanel.js
+│   │   │   └── Home.jsx
+│   │   │   └── Login.jsx
+│   │   │   └── Register.jsx
+│   │   │   └── SearchResult.jsx
+│   │   │   └── ThankYou.jsx
+|   |   |   └──tours.jsx
+|   |
+|   |
+│   ├── routes/                         # API routes
+│   │   └── tour.js
+|   |
+│   ├── services/                       
+│   │   └── ServiceCard.jsx
+│   │   └── ServiceList.jsx
+│   │   └── Service-card.css
 │   │
-│   │   ├── services/                   # Axios config and API calls
+│   │   ├── services/                   
 │   │   │   └── api.js
 │   │
 │   │   ├── App.js                      # Root component with routes
