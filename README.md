@@ -114,5 +114,6 @@ run both the files frontend and backend
 
 ## 🎥 Project Presentation
 
-(https://www.iconfinder.com/icons/3146788/youtube_logo_icon))](https://drive.google.com/file/d/16nC65d9rGBdgbTYmj3JjMjY7cUkrpsu_/view?usp=drive_link)
+
+▶️ **[Click here to watch the demo vid](https://drive.google.com/file/d/16nC65d9rGBdgbTYmj3JjMjY7cUkrpsu_/view?usp=drive_link)**
 
