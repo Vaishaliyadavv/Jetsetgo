@@ -18,7 +18,7 @@ A full-featured travel booking platform built with **MongoDB**, **Express**, **R
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, Axios, Tailwind CSS / CSS Modules
+- **Frontend:** React.js, Axios
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (with Mongoose)
 - **Authentication:** JWT
@@ -28,4 +28,3 @@ A full-featured travel booking platform built with **MongoDB**, **Express**, **R
 ---
 
 ## 📁 Folder Structure
-<pre lang="markdown"> ``` travel-booking/ ├── backend/ │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── config/ │ └── server.js ├── frontend/ │ ├── public/ │ └── src/ │ ├── components/ │ ├── pages/ │ ├── App.js │ └── index.js └── README.md ``` </pre>
