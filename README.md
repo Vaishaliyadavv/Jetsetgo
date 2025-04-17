@@ -111,3 +111,8 @@ cd travel-booking
 run both the files frontend and backend
 
 ```
+
+## 🎥 Project Demo Video
+
+[![Watch the demo]()](https://drive.google.com/file/d/1A2B3C4D5E6F7G8H9I/view?usp=sharing)
+
