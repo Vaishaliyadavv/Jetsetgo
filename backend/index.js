@@ -4,10 +4,13 @@ import mongoose from "mongoose";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import tourRoute from "./routes/tours.js";
+import userRoute from "./routes/users.js";
+import authRoute from "./routes/auth.js";
 
 dotenv.config();
 
 const app = express();
+// app.use(express.json());
 const port = process.env.PORT || 8000;
 mongoose.set("strictQuery", false);
 // Database connection
@@ -32,7 +35,9 @@ app.get("/", (req, res) => {
 app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
+app.use("/auth", authRoute);
 app.use("/tours", tourRoute);
+app.use("/users", userRoute);
 
 // Start server
 app.listen(port, () => {
