@@ -3,8 +3,8 @@ import { TourCard } from '../../shared/TourCard';
 import tourData from '../../assets/data/tours'
 import { Col } from 'reactstrap'
 
-
-
+import useFetch from './../../hooks/useFetch.js'
+import { BASE_URL } from './../../utils/config.js'
 
 
 
