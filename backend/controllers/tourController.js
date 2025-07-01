@@ -113,8 +113,7 @@ export const getAllTour = async (req, res) => {
 // get tour by search
 export const getTourBySearch = async (req, res) => {
   // here 'i' means case sensitive
-  // const city = new RegExp(req.query.city, "i");
-  const city = req.query.city;
+  const city = new RegExp(req.query.city, "i");
 
   const distance = parseInt(req.query.distance);
   const maxGroupSize = parseInt(req.query.maxGroupSize);
@@ -122,12 +121,9 @@ export const getTourBySearch = async (req, res) => {
   try {
     // gte means greater
     const tours = await Tour.find({
-      // city,
-      city: { $regex: city, $options: "i" },
+      city,
       distance: { $gte: distance },
       maxGroupSize: { $gte: maxGroupSize },
-      // distance: { $lte: distance }, // FIXED
-      // maxGroupSize: { $lte: maxGroupSize },
     }).populate("reviews");
 
     res.status(200).json({
